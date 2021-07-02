@@ -81,10 +81,10 @@ if (is_file($konfigurasi_db))
 }
 else
 {
-	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'root';
-	$db['default']['password'] = '';
-	$db['default']['database'] = 'opensid';
+	$db['default']['hostname'] = 'us-cdbr-east-04.cleardb.com';
+	$db['default']['username'] = 'be1a82722392c5';
+	$db['default']['password'] = 'd7e6a92d';
+	$db['default']['database'] = 'heroku_771ffccb009bceb';
 	$db['default']['stricton'] = TRUE;
 }
 $db['default']['dbdriver'] = 'mysqli';
